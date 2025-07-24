@@ -9,7 +9,7 @@ const httpServer = createServer(app)
 
 const io = new Server(httpServer, {
   cors: {
-    origin: '*', // change this to your frontend origin in production
+    origin: '*',
   },
 })
 
